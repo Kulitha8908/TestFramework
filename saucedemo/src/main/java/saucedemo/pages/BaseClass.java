@@ -16,14 +16,12 @@ public class BaseClass {
 	public ExcelDataProvider excel;
 	public ConfigDataProvider config;
 	
-	
 	@BeforeSuite
 	public void setUp() 
 	{
 		excel = new ExcelDataProvider();
 		config = new ConfigDataProvider();
 	}
-	
 	@BeforeClass
 	public void setup()
 	{
